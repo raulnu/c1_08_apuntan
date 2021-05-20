@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+    height: 100vh;
 }
 
 .contenedor-principal {
@@ -37,10 +37,11 @@ body {
 
 .contenedor-senor .row .col-img {
     flex: 0 284px;
+    padding: 0 20px;
 }
 
-.contenedor-imagen{
-  border-right: 3px dotted #fff;
+.contenedor-imagen {
+    border-right: 3px dotted #fff;
 }
 
 .titulo-senor {
