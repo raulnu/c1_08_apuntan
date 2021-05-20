@@ -4,32 +4,42 @@
     --color-inicial: #660000;
 }
 
-.contenedor-principal{
-  background-color: #c2e7da;
+.contenedor-principal {
+    background-color: #c2e7da;
 }
 
-.titulo{
-  font-weight: 400;
+.titulo {
+    font-weight: 400;
 }
 
-.contador-senores{
-  font-size: 32px;
+.contador-senores {
+    font-size: 32px;
 }
 
-.marcar-todos{
-  font-size: 18px;
+.marcar-todos {
+    font-size: 18px;
 }
 
 .contenedor-senor {
-  background-color: var(--color-secundario);
-  border: 2px white solid;
-  border-radius: 10%;
+    background-color: var(--color-secundario);
+    border: 2px white solid;
+    border-radius: 10%;
 }
 
 .titulo-senor {
-  font-size: 40px;
+    font-size: 40px;
 }
 
-.fuente-lista{
-  font-size: 21px;
+.fuente-lista {
+    font-size: 21px;
+}
+
+.letra-inicial {
+    bottom: 10px;
+    right: 15px;
+    background-color: var(--color-inicial);
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 64px;
 }
