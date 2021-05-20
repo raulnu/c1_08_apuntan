@@ -4,8 +4,13 @@
     --color-inicial: #660000;
 }
 
+body {
+  height: 100vh;
+}
+
 .contenedor-principal {
     background-color: #c2e7da;
+    height: 100%;
 }
 
 .titulo {
@@ -32,6 +37,10 @@
 
 .contenedor-senor .row .col-img {
     flex: 0 284px;
+}
+
+.contenedor-imagen{
+  border-right: 3px dotted #fff;
 }
 
 .titulo-senor {
