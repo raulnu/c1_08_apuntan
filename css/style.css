@@ -5,12 +5,13 @@
 }
 
 body {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 .contenedor-principal {
     background-color: #c2e7da;
     height: 100%;
+    padding-bottom: 45px;
 }
 
 .titulo {
