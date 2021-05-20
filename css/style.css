@@ -4,8 +4,13 @@
     --color-inicial: #660000;
 }
 
+body {
+  height: 100vh;
+}
+
 .contenedor-principal {
     background-color: #c2e7da;
+    height: 100%;
 }
 
 .titulo {
