@@ -4,9 +4,8 @@
     --color-inicial: #660000;
 }
 
-.contenedor-señor {
-  background-color: var(--color-secundario);
-  border: 2px white solid;
-  border-radius: 10%;
+.contenedor-senor {
+    background-color: var(--color-secundario);
+    border: 2px white solid;
+    border-radius: 10%;
 }
-
