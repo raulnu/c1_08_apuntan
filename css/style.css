@@ -63,6 +63,11 @@ body {
     line-height: 64px;
 }
 
-.borde-imagen {
-    border: 1px solid #fff;
+.senor-imagen{
+  border: 1px solid #fff;
+  transition: transform 0.5s;
+}
+
+.contenedor-senor:hover > .row > .contenedor-imagen > .senor-imagen {
+  transform: scaleX(-1);
 }
