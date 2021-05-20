@@ -26,6 +26,10 @@
     border-radius: 10%;
 }
 
+.contenedor-senor+.contenedor-senor {
+    margin-top: 42px;
+}
+
 .titulo-senor {
     font-size: 40px;
 }
