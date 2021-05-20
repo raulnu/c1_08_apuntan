@@ -1,12 +1,12 @@
-
-
-
-
-
-
+:root {
+    --color-primario: #c2e7da;
+    --color-secundario: #6290c3;
+    --color-inicial: #660000;
+}
 
 .contenedor-señor {
   background-color: var(--color-secundario);
   border: 2px white solid;
   border-radius: 10%;
 }
+
