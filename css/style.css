@@ -14,6 +14,10 @@ body {
     padding-bottom: 45px;
 }
 
+.cabecera {
+    padding: 40px 0;
+}
+
 .titulo {
     font-weight: 400;
 }
@@ -63,11 +67,11 @@ body {
     line-height: 64px;
 }
 
-.senor-imagen{
-  border: 1px solid #fff;
-  transition: transform 0.5s;
+.senor-imagen {
+    border: 1px solid #fff;
+    transition: transform 0.5s;
 }
 
-.contenedor-senor:hover > .row > .contenedor-imagen > .senor-imagen {
-  transform: scaleX(-1);
+.contenedor-senor:hover>.row>.contenedor-imagen>.senor-imagen {
+    transform: scaleX(-1);
 }
