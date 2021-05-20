@@ -4,6 +4,22 @@
     --color-inicial: #660000;
 }
 
+.contenedor-principal{
+  background-color: #c2e7da;
+}
+
+.titulo{
+  font-weight: 400;
+}
+
+.contador-senores{
+  font-size: 32px;
+}
+
+.marcar-todos{
+  font-size: 18px;
+}
+
 .contenedor-señor {
   background-color: var(--color-secundario);
   border: 2px white solid;
