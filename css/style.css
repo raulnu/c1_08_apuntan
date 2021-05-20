@@ -34,6 +34,10 @@
     flex: 0 284px;
 }
 
+.contenedor-imagen{
+  border-right: 3px dotted #fff;
+}
+
 .titulo-senor {
     font-size: 40px;
 }
