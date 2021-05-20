@@ -64,8 +64,8 @@ body {
 }
 
 .letra-inicial {
-    bottom: -13px;
-    right: 15px;
+    bottom: -2px;
+    right: 18px;
     background-color: var(--color-inicial);
     width: 70px;
     height: 70px;
