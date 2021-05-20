@@ -6,6 +6,7 @@
 
 body {
     min-height: 100vh;
+    color: #000;
 }
 
 .contenedor-principal {
@@ -55,6 +56,11 @@ body {
 
 .fuente-lista {
     font-size: 21px;
+}
+
+.elemento-lista{
+  max-width: 350px;
+  margin-bottom: 8px;
 }
 
 .letra-inicial {
