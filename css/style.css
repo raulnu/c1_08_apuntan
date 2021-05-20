@@ -30,6 +30,10 @@
     margin-top: 42px;
 }
 
+.contenedor-senor .row .col-img {
+    flex: 0 284px;
+}
+
 .titulo-senor {
     font-size: 40px;
 }
@@ -39,7 +43,7 @@
 }
 
 .letra-inicial {
-    bottom: 10px;
+    bottom: -13px;
     right: 15px;
     background-color: var(--color-inicial);
     width: 70px;
