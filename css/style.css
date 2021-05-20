@@ -54,11 +54,8 @@ body {
     font-size: 40px;
 }
 
-.fuente-lista {
-    font-size: 21px;
-}
-
 .elemento-lista{
+  font-size: 28px;
   max-width: 350px;
   margin-bottom: 8px;
 }
@@ -69,8 +66,7 @@ body {
     background-color: var(--color-inicial);
     width: 70px;
     height: 70px;
-    font-size: 30px;
-    line-height: 64px;
+    font-size: 40px;
 }
 
 .senor-imagen {
