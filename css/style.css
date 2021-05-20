@@ -81,3 +81,21 @@ body {
 .contenedor-senor:hover>.row>.contenedor-imagen>.senor-imagen {
     transform: scaleX(-1);
 }
+.icono-check{
+  color: rgba(9, 90, 27, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  width: 24px;
+  height: 25px;
+  font-size: 35px;
+
+}
+.contenedor-senor:hover > .row > .icono-check{
+  color: rgb(9, 90, 27);
+  background-color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 25px;
+  font-size: 35px;
+
+}
