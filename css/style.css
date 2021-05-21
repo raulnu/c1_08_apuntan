@@ -49,7 +49,8 @@ body {
 }
 
 .contenedor-imagen {
-  border-right: 3px dotted #fff;
+    border-right: 3px dotted #fff;
+    order: 1;
 }
 
 .titulo-senor {
@@ -81,21 +82,25 @@ body {
 }
 
 .icono-check {
-  color: rgba(9, 90, 27, 0);
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 50%;
-  width: 24px;
-  height: 25px;
-  font-size: 35px;
-
+    color: rgba(9, 90, 27, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    width: 24px;
+    height: 25px;
+    font-size: 35px;
 }
 
 .contenedor-senor:hover>.row>.icono-check {
-  color: rgb(9, 90, 27);
-  background-color: #fff;
-  border-radius: 50%;
-  width: 24px;
-  height: 25px;
-  font-size: 35px;
+    color: rgb(9, 90, 27);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 25px;
+    font-size: 35px;
+}
 
+@media(min-width:576px) {
+    .contenedor-senor+.contenedor-senor {
+        margin-top: 0;
+    }
 }
