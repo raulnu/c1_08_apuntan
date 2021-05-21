@@ -1,84 +1,85 @@
 :root {
-    --color-primario: #c2e7da;
-    --color-secundario: #6290c3;
-    --color-inicial: #660000;
+  --color-primario: #c2e7da;
+  --color-secundario: #6290c3;
+  --color-inicial: #660000;
 }
 
 body {
-    min-height: 100vh;
-    color: #000;
+
+  color: #000;
 }
 
 .contenedor-principal {
-    background-color: #c2e7da;
-    height: 100%;
-    padding-bottom: 45px;
+  background-color: #c2e7da;
+  min-height: 100vh;
+  padding-bottom: 45px;
 }
 
 .cabecera {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .titulo {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .contador-senores {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .marcar-todos {
-    font-size: 18px;
-    background-color: var(--color-secundario);
+  font-size: 18px;
+  background-color: var(--color-secundario);
 }
 
 .contenedor-senor {
-    background-color: var(--color-secundario);
-    border: 3px #fff solid;
-    border-radius: 45px;
+  background-color: var(--color-secundario);
+  border: 3px #fff solid;
+  border-radius: 45px;
 }
 
 .contenedor-senor+.contenedor-senor {
-    margin-top: 42px;
+  margin-top: 42px;
 }
 
 .contenedor-senor .row .col-img {
-    flex: 0 284px;
-    padding: 0 20px;
+  flex: 0 284px;
+  padding: 0 20px;
 }
 
 .contenedor-imagen {
-    border-right: 3px dotted #fff;
+  border-right: 3px dotted #fff;
 }
 
 .titulo-senor {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.elemento-lista{
+.elemento-lista {
   font-size: 28px;
   max-width: 375px;
   margin-bottom: 8px;
 }
 
 .letra-inicial {
-    bottom: -2px;
-    right: 18px;
-    background-color: var(--color-inicial);
-    width: 70px;
-    height: 70px;
-    font-size: 40px;
+  bottom: -2px;
+  right: 18px;
+  background-color: var(--color-inicial);
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
 }
 
 .senor-imagen {
-    border: 1px solid #fff;
-    transition: transform 0.5s;
+  border: 1px solid #fff;
+  transition: transform 0.5s;
 }
 
 .contenedor-senor:hover>.row>.contenedor-imagen>.senor-imagen {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-.icono-check{
+
+.icono-check {
   color: rgba(9, 90, 27, 0);
   background-color: rgba(255, 255, 255, 0);
   border-radius: 50%;
@@ -87,7 +88,8 @@ body {
   font-size: 35px;
 
 }
-.contenedor-senor:hover > .row > .icono-check{
+
+.contenedor-senor:hover>.row>.icono-check {
   color: rgb(9, 90, 27);
   background-color: #fff;
   border-radius: 50%;
